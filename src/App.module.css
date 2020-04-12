@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(250, 250,250);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:50px 0px 50px 0px;
+  text-align: center;
+} 
+.h3{
+  color:#6c757d;
+}
+.icon{
+  padding-right: 10px;
+}
+.DevName{
+  word-spacing: 14px;
+  letter-spacing: 6px;
+}
+.github {
+  width: 15.5rem;
+  background: #000 !important;
+  color: #fff !important;
+  padding-left: 0.65rem;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor:pointer;
+  margin-bottom: 20px;
+}
+.api{
+  width: 15.5rem;
+  background : rgba(51,166,103,.19) !important;
+  color: #33a667 !important;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor:pointer;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
+
+
+
+
+.big_circle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	opacity: 0.5;
+	height: 80%;
+}
+.medium_circle {
+	position: absolute;
+	top: 30%;
+	right: 30%;
+	z-index: -1;
+	height: 60%;
+	opacity: 0.4;
+}
+.small_circle {
+	position: absolute;
+	bottom: 0%;
+	left: 20%;
+	z-index: -1;
+}
