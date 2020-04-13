@@ -5,6 +5,7 @@ import { Cards, CountryPicker, Chart } from './components';
 import { fetchData } from './api/';
 import styles from './App.module.css';
 import FilterDramaIcon from '@material-ui/icons/FilterDrama';
+import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
 import {Typography} from '@material-ui/core'
 import image from './images/image.png';
 import {BigEclipse,MidEclipse} from './components/Svg/SvgImages';
@@ -70,6 +71,16 @@ class App extends React.Component {
         >
           <FilterDramaIcon className={styles.icon}/>
           <span>Used Api&nbsp;</span>
+          
+        </a>
+        <a
+          className={styles.devDetails}
+          href="https://vaibhav-mavani.surge.sh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <PersonOutlineOutlinedIcon className={styles.icon}/>
+          <span>About Developer&nbsp;</span>
           
         </a>
         <Typography>Developed By</Typography>
