@@ -1,5 +1,5 @@
 .formControl {
-  width: 30%;
+  width: 100%;
   margin-bottom: 30px !important;
   border:3px solid lightskyblue;
   
@@ -11,4 +11,3 @@
     box-shadow:3px 3px 5px 6px #ccc;
   }
 }
-
